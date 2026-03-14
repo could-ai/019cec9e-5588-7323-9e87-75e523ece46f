@@ -487,7 +487,7 @@ class FooterSection extends StatelessWidget {
       width: double.infinity,
       color: const Color(0xFF1A1A1A),
       padding: const EdgeInsets.symmetric(vertical: 40, horizontal: 24),
-      margin: const EdgeInsets.top(60),
+      margin: const EdgeInsets.only(top: 60),
       child: Column(
         children: [
           const Row(
